@@ -1,0 +1,18 @@
+{
+  "name": "nodejs-spreadsheets",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "This script defines readGoogleSheet, an async function to read data from Google Sheets using a service account. It's immediately invoked to fetch and log data from a specified sheet and range, with error handling included.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "googleapis": "^134.0.0",
+    "node-cron": "^3.0.3",
+    "twilio": "^5.0.3"
+  }
+}
